@@ -1,0 +1,3 @@
+#!/bin/bash
+chmod -r u+x,g+x,o+x
+
