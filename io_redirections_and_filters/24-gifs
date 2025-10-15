@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -name '*.gif' -exec du -k {} + | sort -n | tr '/' '.' | rev | cut -d . -f2 | rev
